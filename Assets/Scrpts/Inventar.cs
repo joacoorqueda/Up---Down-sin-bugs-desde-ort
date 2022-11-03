@@ -11,6 +11,8 @@ public class Inventar : MonoBehaviour
 
     public TextMeshProUGUI playersize;
 
+    //public string scorestring = ("Tamaño: ");
+
     
 
     // Start is called before the first frame update
@@ -23,7 +25,7 @@ public class Inventar : MonoBehaviour
     void Update()
     {
 
-        playersize.text = tamaño.ToString();
+        playersize.text = "Score: " + tamaño.ToString();
             
     }
 }
