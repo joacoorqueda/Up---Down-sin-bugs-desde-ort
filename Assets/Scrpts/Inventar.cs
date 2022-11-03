@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Inventar : MonoBehaviour
 {
@@ -10,22 +11,19 @@ public class Inventar : MonoBehaviour
 
     public TextMeshProUGUI playersize;
 
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        //textMesh = GetComponent<TextMeshProUGUI>();
-
-        //TextMeshProUGUI playersize = ;
-
-
+        
     }
 
-    
 
     void Update()
-    { 
+    {
 
+        playersize.text = tamaño.ToString();
             
     }
 }
